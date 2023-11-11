@@ -1,0 +1,247 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1050px;
+}
+@media screen and (min-width: 768px) {
+  .section-center {
+    padding: 1rem 0.5rem;
+    width: 95vw;
+  }
+}
+/* navbar */
+.nav.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+.logo-photo {
+  height: 5rem;
+  width: 10rem;
+  object-fit: cover;
+  object-position: center;
+}
+.navbar {
+  background: white;
+  margin: auto;
+}
+#navbarSupportedContent a {
+  color: black;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+#navbarSupportedContent a:hover {
+  background: green;
+  width: 90%;
+}
+/* ============================================== */
+/* carasouel */
+img {
+  object-fit: cover;
+}
+.Slider {
+  height:350px;
+}
+@media screen and (min-width: 768px) {
+  .Slider {
+    height: 530px;
+  }
+}
+@media screen and (min-width: 995px) {
+  #navbarSupportedContent {
+    margin-left: 7rem;
+  }
+  .navbar {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+}
+/* end of carasouel */
+/* ======================================== */
+
+/* PROJECTS */
+.title {
+  color: green;
+  text-align: center;
+}
+.project-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem 2rem;
+}
+.project {
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+.pro-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.pro-name {
+  color: #ffffff;
+  padding: 0.8rem;
+  position: absolute;
+  /* transform: translate(-50% 50%); */
+  top: 40%;
+  bottom: 40%;
+  left: 10%;
+  right: 10%;
+}
+@media screen and (min-width: 850px) {
+  .projects {
+    margin-top: 5rem;
+  }
+  .project h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+}
+/* END OF PROJECTS */
+/* =========================================== */
+
+/* performance section */
+/* end of performance */
+/* =================================== */
+/* message */
+.message-center {
+  text-align: left;
+}
+.profile-img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+.profile-photo {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.chair-profile {
+  text-align: left;
+}
+.section-title {
+  padding: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+.underline {
+  background: green;
+  height: 0.5rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  margin: auto;
+}
+@media screen and (min-width: 850px) {
+  .message-center {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .message-center p,
+  h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .message p {
+    font-size: 1rem;
+  }
+}
+/* end of message */
+/* ========================================== */
+/* what's new */
+.new-title {
+  margin: 1.5rem 0;
+}
+.what-new {
+  padding: 1rem 2rem;
+}
+.new-title .underline {
+  margin: auto;
+}
+/* end of whats new */
+/* ====================================== */
+/* leadership team section */
+.team-center {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links a {
+  height: 50px;
+  width: 50px;
+  color: #808080;
+  font-size: 1.3rem;
+  border: 2px solid #808080;
+  padding: 0.2rem;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+}
+.links a:hover {
+  color: green;
+  border: 2px solid green;
+}
+.card-title {
+  font-size: 1.2rem;
+}
+.card-text {
+  font-size: 1rem;
+  color: green;
+}
+/* end of team */
+/* =========================================== */
+/* social-links */
+.contact {
+  display: grid;
+  place-items: center;
+  background: green;
+  padding: 1.5rem 0;
+}
+.pages-links {
+  display: flex;
+  gap: 1rem;
+}
+.socl-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.pages-links a:hover {
+  background: rgba(243, 241, 241, 0.827);
+  padding: 0.3rem;
+  border-radius: 0.8rem;
+}
+/* end of social-links */
