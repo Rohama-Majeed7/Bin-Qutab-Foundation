@@ -219,7 +219,7 @@ html {
   padding: 0.3rem;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap:1rem;
+  gap: 1rem;
 }
 .per-img {
   width: 250px;
