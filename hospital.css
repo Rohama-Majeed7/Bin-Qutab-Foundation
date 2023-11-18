@@ -216,14 +216,23 @@ html {
   display: grid;
   text-align: center;
   align-items: center;
+  padding: 0.3rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap:1rem;
 }
 .per-img {
-  width: 300px;
+  width: 250px;
   margin: auto;
 }
 .per-photo {
   height: 100%;
   width: 100%;
+}
+.points {
+  background: green;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 .points h1 {
   font-size: 3rem;
@@ -267,7 +276,7 @@ html {
   place-items: center;
   border-radius: 1rem;
   z-index: 1;
-  color:black;
+  color: black;
   text-transform: capitalize;
 }
 .legal-info img {
@@ -313,14 +322,14 @@ html {
   position: absolute;
   bottom: 0;
   left: 2px;
-  color: #ffffff;
+  color: white;
+  background: rgba(0, 0, 0, 0.456);
 }
 .imge {
   height: 120px;
   width: 300px;
   position: relative;
   transition: all 1s ease-out;
-  opacity: 0.8;
 }
 .imge:hover {
   opacity: 0.9;
